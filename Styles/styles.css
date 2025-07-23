@@ -1,0 +1,168 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.noto_serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Global styles */
+
+.margin{
+    margin-left: 9.375rem;
+    margin-right: 9.375rem;
+}
+
+.primary_head{
+    color: black;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.secondary_head{
+    color: #E95A08;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+
+.bg_primary{
+    background-color: #f5f8ff;
+}
+
+.bg_secondary{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text_primary{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: auto;
+}
+
+.link_primary{
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+/* Navigation styles */
+
+.nav_bar {
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_item a, .nav_items a {
+    text-decoration: none;
+}
+
+.home_link {
+    color: #252432;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+
+.cart_link {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+/* Hero section styles */
+
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.hero_text{
+    max-width: 570px;
+}
+
+.hero_title{
+    color: black;
+    font-size: 4.0625rem;
+    font-weight: 700;
+}
+
+.title_highlight{
+    color: #E95A08;
+}
+
+
+/* Mobile styles */
+
+@media screen and (max-width: 640px) {
+    /* Global style*/
+    .margin{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text_primary{
+        font-size: .875rem;
+    }
+
+    /* Navigation styles */
+
+    .logo{
+        width: 3.9375rem;
+        height: 2.375rem;
+    }
+
+    .nav_bar{
+        margin-top: .8125rem;
+    }
+
+    .nav_item{
+        display: none;
+    }
+    
+    /* Hero section style */
+
+    .hero_section{
+        flex-direction: column-reverse;
+        margin-top: 28px;
+    }
+
+    .hero_text{
+        max-width: 100%;
+    }
+
+    .hero_title{
+        font-size: 1.5rem;
+    }
+
+    .hero_image{
+        width: 100%;
+        height: auto;
+    }
+
+}
