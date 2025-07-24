@@ -167,6 +167,23 @@
     border: none;
 }
 
+/* Flower & Plants Lover styles */
+
+.flower_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 210px;
+}
+
+.flower_text{
+    max-width: 540px;
+}
+
+.flower_list_item{
+    margin-top: 20px;
+}
+
 /* Mobile styles */
 
 @media screen and (max-width: 640px) {
@@ -264,5 +281,17 @@
     .add_cart_button{
         width: 100%;
         font-size: 0.875rem;
+    }
+
+    /* Flower & Plants Lover styles */
+
+    .flower_section{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .flower_image{
+        max-width: 100%;
+        height: auto;
     }
 }
