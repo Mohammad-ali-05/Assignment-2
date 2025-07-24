@@ -171,6 +171,7 @@
 
 .flower_section{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-top: 210px;
