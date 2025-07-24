@@ -196,7 +196,7 @@
     }
 
     .nav_bar{
-        margin-top: .8125rem;
+        margin-top: 13px;
     }
 
     .nav_item{
@@ -236,7 +236,7 @@
     .product_grid{
         margin-top: 28px;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 1.25rem;
+        column-gap: auto;
         row-gap: 1.78125rem;
     }
 
@@ -245,8 +245,8 @@
     }
 
     .product_image{
-        width: 171px;
-        height: 197px;
+        max-width: 100%;
+        height: auto;
     }
 
     .product_name {
