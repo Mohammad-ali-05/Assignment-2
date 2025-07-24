@@ -286,7 +286,7 @@
 
     /* Flower & Plants Lover styles */
 
-    /* .flower_section{
+    .flower_section{
         flex-direction: column;
         margin-top: 40px;
     }
@@ -294,5 +294,5 @@
     .flower_image{
         max-width: 100%;
         height: auto;
-    } */
+    }
 }
