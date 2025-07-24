@@ -22,8 +22,8 @@
 /* Global styles */
 
 .margin{
-    margin-left: 9.375rem;
-    margin-right: 9.375rem;
+    margin: 0 auto;
+    max-width: 1140px;
 }
 
 .primary_head{
@@ -184,6 +184,7 @@
 .flower_list_item{
     margin-top: 20px;
 }
+
 
 /* Mobile styles */
 
