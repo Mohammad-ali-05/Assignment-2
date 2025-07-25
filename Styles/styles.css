@@ -245,6 +245,18 @@
     padding: 50px 0;
 }
 
+.flower_image_container{
+    position: relative;
+}
+
+.trusted_badge{
+    width: 286px;
+    position: absolute;
+    left: 347px;
+    top: -127px;
+    filter: drop-shadow(-5px 10px 1px rgba(0, 0, 0, 0.25));
+}
+
 .footer_description{
     max-width: 360px;
 }
@@ -375,6 +387,10 @@
     .flower_section{
         flex-direction: column;
         margin-top: 40px;
+    }
+
+    .trusted_badge{
+        display: none;
     }
 
     .flower_image{
