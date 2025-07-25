@@ -185,6 +185,100 @@
     margin-top: 20px;
 }
 
+/* Deal section styles */
+
+.deal_section{
+    margin-top: 130px;
+}
+
+.deal_title{
+    text-align: center;
+}
+
+.deal_description{
+    max-width: 888px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deal_grid{
+    display: grid;
+    margin-top: 120px;
+    grid-template-columns: repeat(1, 1fr) 2fr;
+    column-gap: 1.75rem;
+    row-gap: 1.25rem;
+}
+
+.deal_bloom, .deal_zabo, .deal_ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal_bloom{
+    width: 100%;
+    height: 202px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.deal_zabo{
+    grid-row: span 2;
+    width: 100%;
+    height: 424px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.deal_ana{
+    width: 100%;
+    height: 202px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.deal_offer_bloom, .deal_offer_ana{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.deal_offer_zabo{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.deal_shop_bloom, .deal_shop_ana{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.deal_shop_zabo{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
 /* Join section styles */
 
 .join_section{
@@ -251,6 +345,7 @@
 
 .trusted_badge{
     width: 286px;
+    height: 286px;
     position: absolute;
     left: 347px;
     top: -127px;
@@ -396,6 +491,26 @@
     .flower_image{
         max-width: 100%;
         height: auto;
+    }
+
+    /* Deal section styles */
+
+    .deal_grid{
+        margin-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.25rem;
+    }
+
+    .deal_zabo{
+        height: 202px;
+    }
+
+    .deal_offer_zabo{
+        font-size: 1.25rem;
+    }
+
+    .deal_shop_zabo{
+        font-size: 1rem;
     }
 
     /* Join section styles */
