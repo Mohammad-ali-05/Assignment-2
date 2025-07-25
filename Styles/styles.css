@@ -44,7 +44,7 @@
 }
 
 .bg_secondary{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #ffffff80;
 }
 
 .text_primary{
@@ -239,6 +239,36 @@
 
 /* Footer section style */
 
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.footer_description{
+    max-width: 360px;
+}
+
+.footer_links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.links{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.social_links{
+    display: flex;
+    max-height: 36px;
+    align-items: center;
+    gap: 1.5rem;
+}
 
 
 /* Mobile styles */
@@ -376,5 +406,15 @@
 
     .join_button{
         max-width: 100px;
+    }
+
+    /* Footer section style */
+
+    .footer_section{
+        flex-direction: column;
+    }
+
+    .footer_links{
+        padding-left: 0;
     }
 }
