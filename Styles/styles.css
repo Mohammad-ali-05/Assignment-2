@@ -192,6 +192,7 @@
     background-image: url('../assets/news-letter-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 120px;
 }
 
 .join_container{
@@ -235,6 +236,10 @@
     font-size: 1rem;
     border: none;
 }
+
+/* Footer section style */
+
+
 
 /* Mobile styles */
 
@@ -348,6 +353,10 @@
     }
 
     /* Join section styles */
+
+    .join_section{
+        margin-top: 40px;
+    }
 
     .join_section, .join_container{
         height: 278px;
