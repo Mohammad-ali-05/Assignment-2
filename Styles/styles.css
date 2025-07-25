@@ -189,7 +189,7 @@
 
 .join_section{
     height: 533px;
-    background-image: url('../Assets/news-letter-bg.png');
+    background-image: url('../assets/news-letter-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -362,10 +362,10 @@
     }
 
     .join_email{
-        width: 228px;
+        max-width: 228px;
     }
 
     .join_button{
-        width: 100px;
+        max-width: 100px;
     }
 }
